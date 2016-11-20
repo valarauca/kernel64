@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["Rand","Random"]],"fn":[["copy_on_write","Copy On Write"],["read_only_memmap","Memory Map"]],"type":[["OSFault","So I don't have to type out io::Error all the time."]]});

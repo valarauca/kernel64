@@ -1,0 +1,3 @@
+var searchIndex = {};
+searchIndex["kernel64"] = {"doc":"Linux Kernel 64 Bindings","items":[[4,"Rand","kernel64","Random",null,null],[13,"DevRand","","",0,null],[13,"URand","","",0,null],[5,"copy_on_write","","Copy On Write",null,null],[5,"read_only_memmap","","Memory Map",null,{"inputs":[{"name":"file"}],"output":{"name":"result"}}],[6,"OSFault","","So I don&#39;t have to type out io::Error all the time.",null,null],[11,"clone","","",0,null],[11,"fmt","","",0,null],[11,"eq","","",0,null],[11,"fetch","","Fetch Randomness",0,null],[11,"default","","Default",0,{"inputs":[],"output":{"name":"self"}}]],"paths":[[4,"Rand"]]};
+initSearch(searchIndex);
