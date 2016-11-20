@@ -22,6 +22,11 @@ extern {
     fn simple_urand(ptr: *mut u8, len: usize) -> u64;
     fn cow(ptr: *mut u8, len: usize) -> u64;
     fn memmap_ro(fd: i32, len: u64) -> u64;
+    fn vm_read(pid: i32, loc: *const u8,
+               ll: usize, rem: *const u8, rl:usize) -> u64;
+    fn vm_write(pid: i32, loc: *const u8,
+               ll: usize, rem: *const u8, rl:usize) -> u64;
+
 }
 
 /// Random
@@ -151,3 +156,6 @@ pub fn read_only_memmap<'a>( file: &File)
         }
     }
 }
+
+
+///
